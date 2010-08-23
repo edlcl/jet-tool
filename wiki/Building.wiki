@@ -1,0 +1,3 @@
+#summary Notes about building the project from the sources
+
+To build the Jet tool, you'll need to import DAO_TLB. To do that, open Component> Import Component, choose "Type Library" and select "Microsoft DAO 3.6 Object Library".
