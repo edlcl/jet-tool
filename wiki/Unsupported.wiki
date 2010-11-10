@@ -6,9 +6,6 @@ This page lists various limitations and unsupported configurations for the Jet t
 == Comments ==
 Comments are exported only in private-extensions mode.
 
-== Stored procedures ==
-Stored procedures are not exported at all yet.
-
 == Foreign keys ==
 Foreign keys are exported unless they're "dummy" foreign keys (pure table relationships, without any integrity checks attached). It is impossible to create dummy foreign keys with SQL, and a method of doing so via DAO/private extensions is not implemented yet.
 
